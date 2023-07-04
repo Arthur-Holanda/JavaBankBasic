@@ -1,29 +1,22 @@
 ![thumbnail-Desafio Java](https://user-images.githubusercontent.com/66698429/218160231-11c3a759-711e-484d-a856-b5977b065ec6.png)
 
 
-# Desafio
+<h1 align="center"> JavaBank </h1>
+Este é um projeto Java criado como parte do curso de formação em Java da escola de programação online Alura. O projeto simula um sistema bancário básico com funcionalidades simples, como consulta de saldo, recebimento e transferência de valores. Fiz alterações do projeto original pra ficar de acordo com minhas preferencias pessoais.
 
+## Funcionalidades
+O programa oferece as seguintes funcionalidades:
 
-Vamos implementar uma aplicação para controlar nossa conta bancária, seja ela virtual ou não. 
+1. `Consultar saldo` Permite visualizar o saldo atual da conta.
+2. `Receber um PIX` Permite adicionar um valor ao saldo da conta.
+3. `Fazer um PIX` Permite transferir um valor para outra conta, desde que o valor não exceda o saldo disponível.
+4. `Sair` Encerra o programa.
 
-## 🔨 Objetivos do projeto
+## Utilização
+Ao executar o programa, será exibido o nome do titular da conta, o tipo de conta (no caso, "Corrente") e o saldo inicial. Em seguida, será apresentado um menu com as opções disponíveis.
 
-- Criar um cabeçalho inicial com os dados do cliente (Nome, Tipo da Conta e Saldo)
-- Criar um menu que descreve as operações. Aqui você pode escolher o nome de método que mais lhe agradar, como *saca* (ou *transfere*, *enviaPix*) para simular a **retirada** de valores da conta
-e *deposita* (ou *recebeTransferencia*, *recebePix*) para representar a **entrada** de valores na conta.
-- O menu deve ter quatro opções: a de entrada de valor, saída de valor, consulta de saldo e finalização da aplicação.
-- Lembre-se que para fazer a saída de valores, é necessário ter saldo suficiente.
-- O menu deve aparecer continuamente até que o usuário digite a opção para sair.
-- Caso ele digite qualquer opção que não seja correta, deve apresentar a mensagem de opção inválida.
-- Usaremos a classe Scanner para fazer a leitura da opção do usuário.
-<p></p>
+Para escolher uma opção, digite o número correspondente e pressione Enter. Dependendo da opção selecionada, o programa solicitará informações adicionais, como o valor do PIX a receber ou transferir.
 
-Exemplo/Sugestão de tela para o menu: 
+Após cada operação, o programa exibirá uma mensagem indicando se a operação foi realizada com sucesso ou se houve algum problema.
 
-<p></p>
-
-![image](https://user-images.githubusercontent.com/66698429/218162389-1b68a232-e91b-44ba-b7b3-317920d69ee1.png)
-
-
-
-Bom desafio!
+Para encerrar o programa, selecione a opção "0 - Sair". O programa será finalizado e a execução será encerrada.
